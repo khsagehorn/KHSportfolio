@@ -1,0 +1,116 @@
+/* add custom styles */
+body {
+  text-align: center;
+  margin: auto;
+/*  background-color: #f2f2f2;*/
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poiret One';
+  text-align: center;
+  font-size: 600%;
+  margin-bottom: 2rem;
+}
+
+h2,h3,h4,li {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+ font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+ font-size: 15px;
+ line-height: 25px;
+}
+
+a {
+  color: black;
+  text-decoration-style: none;
+
+}
+
+ul {
+  padding: 15px;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+li {
+  font-size: 2rem;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  list-style: none;
+  display: inline;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+li:hover {
+  background-color: #f3f3f3;
+}
+
+#navbar {
+  
+
+}
+
+.navbarFixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+/*  box-shadow: 0 8px 6px -6px #d2d2d2;*/
+}
+
+#greyAbstract {
+  width: 100%;
+}
+
+#cube {
+  /*position: absolute;*/
+  /*display: block;*/
+  bottom: 0;
+  right: 0;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
+}
+
+#projects {
+  margin-top: 100px;
+}
+
+#wrapper {
+  height: 60px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: block;
+  width: 80%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.thumbnail:hover {
+  opacity: .7;
+}
+
+.project {
+  text-align: center;
+ /* border: 1px black solid;*/
+  height: 550px;
+}
+
+.description {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
