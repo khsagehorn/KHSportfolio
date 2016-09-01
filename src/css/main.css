@@ -34,9 +34,11 @@ h2,h3,h4,li {
 }
 
 p {
- font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+ /*font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;*/
  font-size: 15px;
  line-height: 25px;
+   font-family: 'Raleway', sans-serif;
+
 }
 
 a {
@@ -79,7 +81,6 @@ li:hover {
 .contact{
   padding-top: 1.5rem;
   background-image: url('../assets/BlueAbstract.jpeg');
-  width: 100%;
 }
 
 .navbarFixed {
